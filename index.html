@@ -58,60 +58,60 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn" data-modal-open>
+          <button class="hero-btn" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
       </section>
       <!--Перелік гарних рис-->
       <section class="ideology section">
-        <div class="container ideo-container">
+        <div class="container ideology-container">
           <h2 class="visually-hidden">Яка наша ідеологія</h2>
           <ul class="ideology-list">
             <li class="ideology-item">
-              <div class="icon-container">
-                <svg width="70" height="70" class="ideo-icon">
+              <div class="ideology-thumb">
+                <svg width="70" height="70">
                   <use href="./images/icons.svg#antenna"></use>
                 </svg>
               </div>
-              <h3 class="caution">Увага до деталей</h3>
+              <h3 class="ideology-title">Увага до деталей</h3>
               <p class="ideology-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li class="ideology-item">
-              <div class="icon-container">
-                <svg width="70" height="70" class="ideo-icon">
+              <div class="ideology-thumb">
+                <svg width="70" height="70">
                   <use href="./images/icons.svg#clock"></use>
                 </svg>
               </div>
-              <h3 class="caution">Пунктуальність</h3>
+              <h3 class="ideology-title">Пунктуальність</h3>
               <p class="ideology-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
             <li class="ideology-item">
-              <div class="icon-container">
-                <svg width="70" height="70" class="ideo-icon">
+              <div class="ideology-thumb">
+                <svg width="70" height="70">
                   <use href="./images/icons.svg#diagram"></use>
                 </svg>
               </div>
 
-              <h3 class="caution">Планування</h3>
+              <h3 class="ideology-title">Планування</h3>
               <p class="ideology-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="ideology-item">
-              <div class="icon-container">
-                <svg width="70" height="70" class="ideo-icon">
+              <div class="ideology-thumb">
+                <svg width="70" height="70">
                   <use href="./images/icons.svg#astronaut"></use>
                 </svg>
               </div>
 
-              <h3 class="caution">Сучасні технології</h3>
+              <h3 class="ideology-title">Сучасні технології</h3>
               <p class="ideology-text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
@@ -131,7 +131,6 @@
                   src="./images/box1.jpg"
                   alt="Верстка на комп'ютері"
                   width="370"
-                  class="image"
                 />
                 <div class="images-overlay">
                   <p class="images-text">Десктопні додатки</p>
@@ -144,7 +143,6 @@
                   src="./images/box2.jpg"
                   alt="Мобільні додатки"
                   width="370"
-                  class="image"
                 />
                 <div class="images-overlay">
                   <p class="images-text">Мобільні додатки</p>
@@ -157,7 +155,6 @@
                   src="./images/box3.jpg"
                   alt="Дизайнерські рішення"
                   width="370"
-                  class="image"
                 />
                 <div class="images-overlay">
                   <p class="images-text">Дизайнерські рішення</p>
@@ -167,19 +164,13 @@
           </ul>
         </div>
       </section>
-      <!--Люди в команді-->
+      <!--ЛЮДИ В КОМАНДІ-->
       <section class="team section">
         <div class="container team-container">
           <h2 class="title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img
-                src="./images/man1.jpg"
-                alt=""
-                width="270"
-                height="260"
-                class="team-img"
-              />
+              <img src="./images/man1.jpg" alt="" width="270" height="260" />
               <div class="team-block">
                 <h3 class="team-name">Ігор Дем'яненко</h3>
                 <p class="team-text">Product Designer</p>
@@ -237,13 +228,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/women1.jpg"
-                alt=""
-                width="270"
-                height="260"
-                class="team-img"
-              />
+              <img src="./images/women1.jpg" alt="" width="270" height="260" />
               <div class="team-block">
                 <h3 class="team-name">Ольга Рєпіна</h3>
                 <p class="team-text">Frontend Developer</p>
@@ -301,13 +286,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                src="./images/man2.jpg"
-                alt=""
-                width="270"
-                height="260"
-                class="teamteam-img"
-              />
+              <img src="./images/man2.jpg" alt="" width="270" height="260" />
               <div class="team-block">
                 <h3 class="team-name">Микола Тарасов</h3>
                 <p class="team-text">Marketing</p>
@@ -425,7 +404,7 @@
           </ul>
         </div>
       </section>
-      <!-- Постійні клієнти -->
+      <!-- ПОСТІЙНІ КЛІЄНТИ -->
       <section class="section">
         <div class="container">
           <h2 class="title">Постійні клієнти</h2>
@@ -476,39 +455,41 @@
         </div>
       </section>
     </main>
-    <!-- Футер -->
+    <!-- ФУТЕР -->
     <footer class="footer">
       <div class="container footer-container">
         <address class="address">
-          <a href="" class="footer-logo"><span class="web">Web</span>Studio</a>
-          <ul class="address-list">
-            <li class="address-item">
+          <a href="" class="logo footer-logo"
+            ><span class="web">Web</span>Studio</a
+          >
+          <ul class="footer-list">
+            <li class="footer-item">
               <a
                 href="https://www.google.com.ua/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858?hl=ru"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="address-map"
+                class="footer-map"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
             </li>
-            <li class="address-item">
-              <a href="mailto:info@devstudio.com" class="address-mail"
+            <li class="footer-item">
+              <a href="mailto:info@devstudio.com" class="footer-mail"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="address-item">
-              <a href="tel:+380961111111" class="address-tel"
+            <li class="footer-item">
+              <a href="tel:+380961111111" class="footer-tel"
                 >+38 096 111 11 11</a
               >
             </li>
           </ul>
         </address>
         <div class="subscribe">
-          <h2 class="links-title">Приєднуйтесь</h2>
-          <ul class="links-list">
+          <h2 class="subscribe-title">Приєднуйтесь</h2>
+          <ul class="subscribe-list">
             <li class="links-item">
               <a
-                class="subs-link"
+                class="subscribe-link"
                 href="https://www.instagram.com/"
                 rel="noreferrer nooppener nofollow"
                 target="_blank"
@@ -520,7 +501,7 @@
             </li>
             <li class="links-item">
               <a
-                class="subs-link"
+                class="subscribe-link"
                 href="https://twitter.com/?lang=ru"
                 rel="noreferrer nooppener nofollow"
                 target="_blank"
@@ -532,7 +513,7 @@
             </li>
             <li class="links-item">
               <a
-                class="subs-link"
+                class="subscribe-link"
                 href="https://m.facebook.com/login/?locale2=ru_RU"
                 rel="noreferrer nooppener nofollow"
                 target="_blank"
@@ -544,7 +525,7 @@
             </li>
             <li class="links-item">
               <a
-                class="subs-link"
+                class="subscribe-link"
                 href="https://ua.linkedin.com/"
                 rel="noreferrer nooppener nofollow"
                 target="_blank"
@@ -556,18 +537,19 @@
             </li>
           </ul>
         </div>
+        <!-- ФОРМА РОЗСИЛКИ -->
         <div class="footer-mail">
-          <h2 class="links-title">Підпишіться на розсилку</h2>
-          <form class="mail-form">
+          <h2 class="subscribe-title">Підпишіться на розсилку</h2>
+          <form class="footer-mail__form">
             <input
-              class="mail-window"
+              class="footer-mail__window"
               name="mailing-list"
               type="email"
               placeholder="E-mail"
             />
-            <button type="submit" class="mail-btn">
-              <p class="mail-text">Підписатися</p>
-              <svg class="mail-svg" width="24" height="24">
+            <button type="submit" class="footer-mail__btn">
+              <p class="footer-mail__text">Підписатися</p>
+              <svg width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -579,7 +561,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-btn" type="button" data-modal-close>
-          <svg class="close-svg" width="18" height="18">
+          <svg width="18" height="18">
             <use href="./images/icons.svg#close-svg"></use>
           </svg>
         </button>
@@ -590,7 +572,7 @@
           >
           <label class="modal-label"
             ><span class="modal-name">Ім'я</span>
-            <span class="icon-view"
+            <span class="modal-view"
               ><input
                 class="modal-field"
                 type="text"
@@ -602,7 +584,7 @@
           </label>
           <label class="modal-label"
             ><span class="modal-name">Телефон</span>
-            <span class="icon-view"
+            <span class="modal-view"
               ><input
                 class="modal-field"
                 type="text"
@@ -616,7 +598,7 @@
           </label>
           <label class="modal-label"
             ><span class="modal-name">Пошта</span>
-            <span class="icon-view"
+            <span class="modal-view"
               ><input
                 class="modal-field"
                 type="email"
@@ -635,21 +617,24 @@
               placeholder="Введіть текст"
             ></textarea>
           </label>
-          <label class="checkbox-label">
-            <input type="checkbox" class="checkbox-field visually-hidden" />
+          <label class="modal-checkbox__label">
+            <input
+              type="checkbox"
+              class="modal-checkbox__field visually-hidden"
+            />
             <svg class="check-svg" width="16" height="15">
               <use
-                class="icon-unchecked"
+                class="modal-icon-unchecked"
                 href="./images/icons.svg#vector"
               ></use>
               <use
-                class="icon-checked"
+                class="modal-icon-checked"
                 href="./images/icons.svg#icon-check"
               ></use>
             </svg>
-            <span class="checkbox-text"
+            <span class="modal-checkbox__text"
               >Погоджуюся з розсилкою та приймаю
-              <a href="" class="checkbox-link">Умови договору</a></span
+              <a href="" class="modal-checkbox__link">Умови договору</a></span
             >
           </label>
           <button class="send-btn" type="submit">Відправити</button>
