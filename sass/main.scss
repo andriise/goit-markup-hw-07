@@ -1,0 +1,36 @@
+// UTILS
+@import "./utils/_vars";
+@import "./utils/_reset";
+
+// COMPONENTS
+@import "./components/_visually-hidden";
+@import "./components/_sample";
+
+// HEADER
+@import "./components/_header";
+@import "./components/_logo";
+
+// HERO SECTION
+@import "./components/_hero";
+
+// IDEOLOGY SECTION
+@import "./components/_ideology";
+
+// IMAGES SECTION
+@import "./components/_images-section";
+
+// TEAM SECTION
+@import "./components/_team";
+
+// CLIENTS SECTION
+@import "./components/_clients";
+
+// FOOTER
+@import "./components/_footer";
+@import "./components/_footer-subscribe";
+
+// PORTFOLIO 
+@import "./components/_portfolio-items";
+
+// MODAL WINDOW
+@import "./components/_modal-window";

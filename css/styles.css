@@ -1,5 +1,5 @@
-:root {
-    /* Кольори макету */
+/* :root {
+
 
     --main-clr: #2196F3;
     --dark-grey-clr: #2F313A;
@@ -14,27 +14,26 @@
     --icon-color: #AFB1B8;
 
 
-    /* Шрифти макету */
 
     --main-font: 'Roboto',
         sans-serif;
     --logo-font: 'Raleway',
         sans-serif;
 
-    /* Animation */
+
     --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 
 
-.main {
+/* .main {
     font-family: var(--main-font);
     color: var(--dark-txt-clr);
     margin: 0;
 
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -47,17 +46,17 @@ ul {
 
 img {
     display: block;
-}
+} */
 
 
-.container {
+/* .container {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
 
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -68,14 +67,52 @@ img {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+} */
+
+/* .btn {
+    background-color: var(--main-clr);
+    color: var(--light-txt-clr);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+    padding: 10px 32px;
+    cursor: pointer;
+    transition: color var(--anim),
+        background-color var(--anim),
+        box-shadow var(--anim);
 }
 
+.btn:hover {
+    background-color: var(--btn-active);
+} */
 
-.section {
+/* .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: fill var(--anim),
+        background-color var(--anim);
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--main-clr);
+    fill: var(--light-txt-clr);
+} */
+
+/* .section {
     padding: 94px 0;
-}
+} */
 
-.header-container,
+/* .header-container,
 .nav {
     display: flex;
     align-items: center;
@@ -90,13 +127,13 @@ img {
     display: flex;
     gap: 50px;
     padding: 0;
-}
+} */
 
 
 
 /* Початок nav */
 
-.logo,
+/* .logo,
 .logo:focus {
     font-family: var(--logo-font);
     font-weight: 700;
@@ -113,12 +150,11 @@ img {
 
 .web {
     color: var(--main-clr);
-
-}
+} */
 
 /* Початок шапки */
 
-.header {
+/* .header {
     background-color: var(--light-txt-clr);
     font-weight: 500;
     font-size: 14px;
@@ -126,20 +162,20 @@ img {
     letter-spacing: 0.02em;
     font-family: var(--main-font);
     border-bottom: 1px solid #ECECEC;
-}
+} */
 
 
-.header-list,
+/* .header-list,
 .nav-list,
 .header-list:focus {
     list-style: none;
     padding: 0;
 
-}
+} */
 
 
 
-.nav-link {
+/* .nav-link {
 
     text-decoration: none;
     color: inherit;
@@ -168,7 +204,7 @@ img {
     bottom: -1px;
     background-color: var(--main-clr);
     border-radius: 2px;
-}
+} */
 
 
 
@@ -178,7 +214,7 @@ img {
 
 /* Початок контактів */
 
-.header-link {
+/* .header-link {
     display: flex;
     gap: 10px;
     align-items: center;
@@ -198,7 +234,7 @@ img {
 .header-link:focus {
     color: var(--main-clr);
     fill: var(--main-clr);
-}
+} */
 
 
 
@@ -210,7 +246,7 @@ img {
 
 
 /* Герой */
-.hero {
+/* .hero {
     background-color: var(--dark-grey-clr);
     padding: 200px 0;
     text-align: center;
@@ -238,37 +274,20 @@ img {
     margin: 0 auto 30px;
 
 
-}
+} */
 
-.hero-btn {
-    background-color: var(--main-clr);
-    color: var(--light-txt-clr);
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: transparent;
-    padding: 10px 32px;
+/* .hero-btn {
     width: 216px;
-    transition: color var(--anim),
-        background-color var(--anim),
-        box-shadow var(--anim);
+} */
 
-}
 
-.hero-btn:hover {
-    background-color: var(--btn-active);
-}
 
 /* Герой кінець */
 
 /* Перелік гарних рис */
 
 
-.ideology {
+/* .ideology {
     padding-bottom: 0;
 }
 
@@ -305,7 +324,7 @@ img {
 
 }
 
-o .ideology-item {
+ .ideology-item {
     flex-basis: calc((100% - 90px) / 4);
 }
 
@@ -325,7 +344,7 @@ o .ideology-item {
     justify-content: center;
     align-items: center;
 
-}
+} */
 
 
 
@@ -335,22 +354,22 @@ o .ideology-item {
 /* Чим займаємося */
 
 
-.images-container {
+/* .images-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.title {
+/* .title {
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-}
+} */
 
-.images-list {
+/* .images-list {
     list-style: none;
     display: flex;
     gap: 30px;
@@ -380,7 +399,7 @@ o .ideology-item {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
+} */
 
 
 /* Кінець чим займаємося */
@@ -388,7 +407,7 @@ o .ideology-item {
 
 /* Люди в команді */
 
-.team {
+/* .team {
     background-color: var(--light-grey-clr);
 
 }
@@ -458,9 +477,9 @@ o .ideology-item {
 .team-link:focus {
     background-color: var(--main-clr);
     fill: var(--light-txt-clr);
-}
+} */
 
-.icon-list {
+/* .team-icon-list {
     list-style: none;
     display: flex;
     gap: 10px;
@@ -468,7 +487,7 @@ o .ideology-item {
     align-items: center;
     padding: 0;
     margin-top: 16px;
-}
+} */
 
 
 
@@ -479,7 +498,7 @@ o .ideology-item {
 
 /* ПОСТІЙНІ КЛІЄНТИ */
 
-.clients-list {
+/* .clients-list {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -510,29 +529,29 @@ o .ideology-item {
     fill: var(--main-clr);
     border-color: var(--main-clr);
     border-radius: 4px;
-}
+} */
 
 
 /* Футер початок */
 
-.footer {
+/* .footer {
     background-color: var(--dark-grey-clr);
     display: flex;
     align-items: center;
     padding: 60px 0;
-}
+} */
 
 
-.footer-logo {
+/* .footer-logo {
     color: var(--light-txt-clr);
     display: inline-block;
     margin-bottom: 20px;
     font-style: normal;
-}
+} */
 
 
 
-.footer-item:not(:last-child) {
+/* .footer-item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -579,9 +598,9 @@ o .ideology-item {
 .footer-map:focus {
     color: var(--main-clr);
 
-}
+} */
 
-.subscribe-title {
+/* .subscribe-title {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -590,18 +609,18 @@ o .ideology-item {
     color: var(--light-txt-clr);
     padding-top: 12px;
     margin-bottom: 20px;
-}
+} */
 
-.address {
+/* .footer-address {
     margin-right: 70px;
-}
+} */
 
-.footer-container {
+/* .footer-container {
     display: flex;
-}
+} */
 
 
-.subscribe-list {
+/* .subscribe-list {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -629,44 +648,27 @@ o .ideology-item {
 .subscribe-link:focus {
     background-color: var(--main-clr);
     fill: var(--light-txt-clr);
-}
+} */
 
 /* ФОРМА РОЗСИЛКИ */
 
-.footer-mail {
+/* .footer-mail {
     margin-left: auto;
-}
+} */
 
 
-.footer-mail__btn {
+/* .footer-mail__btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-clr);
-    color: var(--light-txt-clr);
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    text-align: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: transparent;
-    padding: 10px 32px;
     width: 200px;
     height: 50px;
-    transition: color var(--anim),
-        background-color var(--anim),
-        box-shadow var(--anim);
     fill: var(--light-txt-clr);
+} */
 
-}
 
-.footer-mail__btn:hover {
-    background-color: var(--btn-active);
-}
 
-.footer-mail__form {
+/* .footer-mail__form {
     display: flex;
     gap: 12px;
 }
@@ -689,7 +691,7 @@ o .ideology-item {
 
 .footer-mail__text {
     margin-right: 10px;
-}
+} */
 
 
 /* Кінець футеру */
@@ -703,7 +705,7 @@ o .ideology-item {
 
 
 
-.port-btns {
+/* .port-btns {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -733,9 +735,9 @@ o .ideology-item {
     color: var(--light-txt-clr);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
-}
+} */
 
-.port-box {
+/* .port-box {
     padding: 20px 24px;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
@@ -820,11 +822,11 @@ o .ideology-item {
 .port-link:hover,
 .port-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /* Modal window */
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -978,7 +980,7 @@ o .ideology-item {
     margin-top: 30px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(30 / 16);
     display: flex;
     align-items: center;
     text-align: center;
@@ -1041,4 +1043,4 @@ o .ideology-item {
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: var(--main-clr);
-}
+} */
