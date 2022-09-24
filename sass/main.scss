@@ -5,32 +5,32 @@
 // COMPONENTS
 @import "./components/_visually-hidden";
 @import "./components/_sample";
-
-// HEADER
-@import "./components/_header";
 @import "./components/_logo";
 
+// HEADER
+@import "./layout/_header";
+
 // HERO SECTION
-@import "./components/_hero";
+@import "./layout/_hero";
 
 // IDEOLOGY SECTION
-@import "./components/_ideology";
+@import "./layout/_ideology";
 
 // IMAGES SECTION
-@import "./components/_images-section";
+@import "./layout/_images-section";
 
 // TEAM SECTION
-@import "./components/_team";
+@import "./layout/_team";
 
 // CLIENTS SECTION
-@import "./components/_clients";
+@import "./layout/_clients";
 
 // FOOTER
-@import "./components/_footer";
-@import "./components/_footer-subscribe";
+@import "./layout/_footer";
+@import "./layout/_footer-subscribe";
 
 // PORTFOLIO 
-@import "./components/_portfolio-items";
+@import "./layout/_portfolio-items";
 
 // MODAL WINDOW
-@import "./components/_modal-window";
+@import "./layout/_modal-window";

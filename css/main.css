@@ -30,6 +30,7 @@ h6,
 p,
 ul {
   margin: 0;
+  padding: 0;
 }
 
 img {
@@ -121,6 +122,30 @@ img {
   fill: var(--light-txt-clr);
 }
 
+.logo,
+.logo:focus {
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1923076923;
+  letter-spacing: 0.03em;
+  color: var(--dark-clr);
+  text-decoration: none;
+  list-style: none;
+  margin-right: 92px;
+}
+
+.web {
+  color: var(--main-clr);
+}
+
+.footer-logo {
+  color: var(--light-txt-clr);
+  display: inline-block;
+  margin-bottom: 20px;
+  font-style: normal;
+}
+
 .header {
   background-color: var(--light-txt-clr);
   font-weight: 500;
@@ -202,30 +227,6 @@ img {
 .header-link:hover, .header-link:focus {
   color: var(--main-clr);
   fill: var(--main-clr);
-}
-
-.logo,
-.logo:focus {
-  font-family: var(--logo-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.1923076923;
-  letter-spacing: 0.03em;
-  color: var(--dark-clr);
-  text-decoration: none;
-  list-style: none;
-  margin-right: 92px;
-}
-
-.web {
-  color: var(--main-clr);
-}
-
-.footer-logo {
-  color: var(--light-txt-clr);
-  display: inline-block;
-  margin-bottom: 20px;
-  font-style: normal;
 }
 
 .hero {
@@ -439,6 +440,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
+  padding: 0;
 }
 .clients-link {
   display: -webkit-box;
@@ -510,6 +512,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .footer-mail {
@@ -561,7 +566,6 @@ img {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: var(--light-txt-clr);
-  padding-top: 12px;
   margin-bottom: 20px;
 }
 .subscribe-list {
@@ -761,12 +765,7 @@ img {
   fill: var(--main-clr);
 }
 .modal-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -776,7 +775,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-txt-clr);
-  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 .modal-name {
   display: block;
