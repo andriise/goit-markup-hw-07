@@ -1,7 +1,7 @@
 .ideology {
     padding-bottom: 0;
 
-    &-title {
+    &__title {
             font-weight: 700;
             font-size: 14px;
             line-height: calc(16 / 14);
@@ -17,14 +17,14 @@
     
         }
     
-        &-title,
-        &-text {
+        &__title,
+        &__text {
     
             flex-wrap: wrap;
     
         }
     
-        &-list {
+        &__list {
     
             list-style: none;
             display: flex;
@@ -33,11 +33,11 @@
     
         }
     
-         &-item {
+         &__item {
             flex-basis: calc((100% - 90px) / 4);
         }
     
-        &-text {
+        &__text {
             font-size: 14px;
             line-height: calc(24 / 14);
             letter-spacing: 0.03em;

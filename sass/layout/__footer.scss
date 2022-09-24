@@ -4,10 +4,10 @@
     align-items: center;
     padding: 60px 0;
 
-    &-item:not(:last-child) {
+    &__item:not(:last-child) {
             margin-bottom: 9px;
         }
-    &-address {
+    &__address {
     margin-right: 70px;
 }
     
@@ -24,12 +24,12 @@
 
     }
 
-    &-map {
+    &--map {
         color: var(--light-txt-clr);
     }
 
 
-    &-list {
+    &__list {
         list-style: none;
         padding: 0;
     }

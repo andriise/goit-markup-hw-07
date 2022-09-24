@@ -8,34 +8,38 @@
     border-bottom: 1px solid #ECECEC;
 
     &-container,
-        .nav {
-            display: flex;
-            align-items: center;
-            margin-right: auto;
+    .nav {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
     
         }
     
-        &-list,
-        .nav-list,
-        &-list:focus {
-            list-style: none;
-            padding: 0;
+    &__list,
+    &__list:focus {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 50px;
+
     
         }
     
-        &-list,
-        .nav-list {
-            display: flex;
-            gap: 50px;
-            padding: 0;
-        }
 }
 
 
 
 // NAV_LINK
 
-.nav-link {
+.nav__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+
+.nav__link {
     text-decoration: none;
     color: inherit;
     padding: 32px 0;
@@ -69,7 +73,7 @@
 
 // HEADER CONTACTS
 
-.header-link {
+.header__link {
     display: flex;
     gap: 10px;
     align-items: center;
